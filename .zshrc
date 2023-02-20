@@ -62,7 +62,7 @@ alias jfmsu='git add -A && git commit -m "just fuck my shit up" && git push -F'
 alias ls='echo -e "\\033[1;31m\n========\\nUse exa!!!\\n==========\033[0m" &&ls '
 alias el='exa -a -l --git --no-permissions --no-user --no-filesize --time-style default --group-directories-first --color automatic'
 
-PS1="%F{green}[%* %F{blue}%1d%F{green}]%% "
+PS1="%F{green}[%* %F{blue}%1d%F{green}]%%%f "
 
 #quick cd alias
 alias cdp='cd ~/OneDrive/2022/thesis/proofs'
