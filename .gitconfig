@@ -5,6 +5,7 @@
     whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol,space-before-tab
     tabwidth=4
     excludesfile = ~/.gitignore
+	editor = vim
 [init]
 	defaultBranch = main
 [color]
@@ -23,3 +24,6 @@
 	added = green bold
 	changed = yellow bold
 	untracked = red bold
+[alias]
+	unstage = reset HEAD --
+	last = log -1 HEAD
